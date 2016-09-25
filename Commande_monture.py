@@ -21,7 +21,7 @@ if __name__ == '__main__':
     try:
         fn = sys.argv[1]
     except IndexError:
-        fn = "venus-transit-soleil.jpg"
+        fn = "etoiles1_small.jpg"
 
     src = cv2.imread(fn, 1)
     img = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
